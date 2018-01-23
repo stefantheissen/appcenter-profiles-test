@@ -12,11 +12,13 @@ target 'AppCenterTerst' do
   target 'AppCenterTerstTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'AppCenter'
   end
 
   target 'AppCenterTerstUITests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'AppCenter'
   end
 
 end
