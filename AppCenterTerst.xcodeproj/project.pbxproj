@@ -653,8 +653,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = schrempf.com.appcentertest.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1a7e9eae-b538-45f9-aefe-bbf3b76ca1cc";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc schrempf.com.appcentertest.dev";
+				PROVISIONING_PROFILE = "a8847151-5c03-4c6d-b7b9-d5745424548e";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore schrempf.com.appcentertest.dev";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
