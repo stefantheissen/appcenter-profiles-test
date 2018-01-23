@@ -644,6 +644,7 @@
 			baseConfigurationReference = 4E70C4BDB94C152526A1ABB9 /* Pods-AppCenterTerst.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PVR8YPE74S;
@@ -652,8 +653,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = schrempf.com.appcentertest.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "80bcb672-0938-4bea-baa0-f7b73b7d5add";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development schrempf.com.appcentertest.dev";
+				PROVISIONING_PROFILE = "1a7e9eae-b538-45f9-aefe-bbf3b76ca1cc";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc schrempf.com.appcentertest.dev";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
