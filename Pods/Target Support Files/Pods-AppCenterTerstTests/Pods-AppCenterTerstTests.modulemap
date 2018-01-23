@@ -1,0 +1,6 @@
+framework module Pods_AppCenterTerstTests {
+  umbrella header "Pods-AppCenterTerstTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
