@@ -29,6 +29,10 @@ class ViewController: UIViewController {
     func forceCrash() {
         MSCrashes.generateTestCrash()
     }
-
+    
+    @IBAction func skip() {
+        performSegue(withIdentifier: "skip", sender: self)
+    }
+    
 }
 
